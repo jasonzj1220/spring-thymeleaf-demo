@@ -10,6 +10,16 @@ public class FirstThymeleafController {
     public String indexPage(Model model) {
         String message = "分支测试最终";
         model.addAttribute("message", message);
+
         return "index";
+
     }
+
+    public void test(){
+        while(true){
+
+        }
+    }
+
+
 }
